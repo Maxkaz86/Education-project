@@ -20,7 +20,6 @@
 	background-size: cover;
 }
 .list {
-	height: 100px;
 	background-color: #90EE90;
 	font-family: 'EB Garamond', serif;
 	font-size: 25px;
@@ -28,8 +27,16 @@
 	padding-left: 80px;
 	letter-spacing: 3px;
 }
+.list h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	line-height: 50px;
+	color: white;
+
+}
 .list ul {
-	line-height: 80px;
+	line-height: 50px;
 
 }
 a {
