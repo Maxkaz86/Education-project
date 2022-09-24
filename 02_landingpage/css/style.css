@@ -1,0 +1,68 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.heading {
+	height: 200px;
+	background-color: #90EE90;
+}
+.heading h1 {
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bolder;
+	line-height: 180px;
+	letter-spacing: 3px;
+	padding-left: 80px;
+}
+.pics {
+	height: 1080px;
+	background-image: url(../img/me.jpg);
+	background-size: cover;
+}
+.list {
+	height: 100px;
+	background-color: #90EE90;
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-left: 80px;
+	letter-spacing: 3px;
+}
+.list ul {
+	line-height: 80px;
+
+}
+a {
+	color: white;
+}
+.main_text h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	line-height: 100px;
+	padding-left: 80px;
+}
+.main_text p {
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	letter-spacing: 3px;
+	padding-left: 80px;
+}
+.footer {
+	height: 200px;
+	background-color: #90EE90;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+}
+.footer p {
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	line-height: 185px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	text-align: right;
+	padding-right: 80px;
+}

@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
 h1, h2 {
+	font-family: 'Noto Sans', sans-serif;
 	color: white;
 	background: black;
+	letter-spacing: 3px;
+	line-height: 50px;
+}
+p {
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 2px;
+}
+ul {
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 2px;
 }
