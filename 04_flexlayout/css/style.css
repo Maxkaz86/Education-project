@@ -1,0 +1,81 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.mainpage {
+	color: #E50043;
+}
+.header-container {
+	margin: 0 50px;
+	height: 140px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 140px;
+}
+.link-container.list {
+	display: flex;
+	flex-direction: row;
+}
+.list li {
+	margin-right: 50px;
+}
+.list a {
+	color: #E50043
+}
+.photo {
+	height: 950px;
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 100px;
+	display: flex;
+}
+.heading.main {
+	margin: auto;
+}
+.mainblock {
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.text {
+	width: 1040px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 24px;
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	color: black;
+	margin: auto;
+}
+.bottles {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.bottles p {
+	margin-top: 42px;
+	text-align: center;
+}
+.text, .bottles {
+	margin-top: 150px;
+}
+.footer {
+	height: 140px;
+	margin-top: 150px;
+	background-color: #F8BFC7;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	line-height: 140px;
+}
+.footer h1 {
+	margin-left: 50px;
+}
