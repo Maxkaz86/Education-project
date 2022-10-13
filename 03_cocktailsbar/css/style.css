@@ -1,0 +1,61 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.header, .footer {
+	height: 60px;
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(4,108,0,1) 50%, rgba(0,0,0,1) 100%);
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	line-height: 60px;
+	padding-left: 20px;
+}
+.footer p {
+	text-transform: uppercase;
+}
+.mainblock {
+	position: relative;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin: 52px 0;
+}
+.mainblockDrink {
+	width: 400px;
+	height: 600px;
+	box-sizing: border-box;
+	border: 5px solid #f5cf25;
+	border-radius: 30px;
+	padding-top: 33px;
+	padding-left: 33px;
+	display: inline-block;
+	vertical-align: center;
+}
+.mainblock p {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px 0 40px;
+}
+.firstlist {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.lastlist {
+	padding-bottom: 30px;
+}
+.mainblockDrink.one {
+	position: absolute;
+	left: 70px;
+}
+.mainblockDrink.two {
+	position: absolute;
+	left: 550px;
+}
+.mainblockDrink.three {
+	position: absolute;
+	right: 70px;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
