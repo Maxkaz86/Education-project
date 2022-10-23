@@ -1,0 +1,53 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.title {
+	background-color: #191970;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 3rem;
+	min-height: 140px;
+	line-height: 140px;
+	color: white;
+}
+.columns {
+	max-width: 80vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: auto;
+	padding: 50px 0;
+}
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid #B0C4DE;
+	background-color: #F8F8FF;
+}
+.img.one {
+	background-image: url(../img/meril.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+.img.two {
+	background-image: url(https://images11.graziamagazine.ru/upload/img_cache/aa5/aa522b5f4340b684aa2a605f0b0936e1_cropped_1332x1998.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+.img.three {
+	background-image: url(../img/keit.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+.text {
+	padding: 10px 5px 5px;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.3rem;
+	text-align: justify;
+}
