@@ -1,0 +1,166 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.page {
+	width: 100vw;
+	background-image: url(../img/fon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25%;
+	background-attachment: fixed;
+}
+.mainbar a {
+	color: #ffff00;
+	text-decoration: none;
+}
+.header, .footer {
+	height: 10vh;
+	background-color: #663399;
+	text-transform: uppercase;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 0.8rem;
+	color: #ffff00;
+	line-height: 10vh;
+	padding: 0 10px;
+}
+.mainbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.leftside h1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 2rem;
+	color: #ffff00;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.leftside span {
+	margin-left: 20vw;
+}
+.text {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5rem;
+	color: #ffff00;
+	text-align: center;
+	margin-top: 30px;
+	width: 100%
+}
+.text h2:first-letter {
+	font-size: 2.5rem;
+	color: #663399;
+	font-weight: bolder;
+}
+
+.text p {
+	font-size: 1rem;
+	font-style: italic;
+	width: calc(100% - 20vw);
+	margin: 10px auto;	
+}
+.rightside {
+	width: 90vw;
+	height: 100%;
+	background-color: #dda0dd;
+	margin: 30px auto;
+	font-family: 'EB Garamond', san-serif;
+	font-size: 1rem;
+	padding-left: 10px;
+}
+.rightside p:first-line {
+	font-size: 2rem;
+	line-height: 8vh;
+}
+.rightside p {
+	font-size: 1.5rem;
+}
+label, input {
+	display: block;
+	line-height: 4vh;
+	width: calc(100% - 10vh);
+}
+form {
+	padding: 10px 0;
+}
+label, input {
+		border-radius: 10px;
+		outline: none;
+	}
+input[type="submit"] {
+	margin-top: 10px;
+	background-color: #663399;
+	padding: 5px 15px;
+	width: 20vh;
+}
+input[type="submit"]:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+	.mainbar {
+		width: 50%;
+		justify-content: space-around;
+	}
+	.header, .footer {
+		height: 15vh;
+		font-size: 1.5rem;
+		line-height: 15vh;
+		padding-left: 15px;
+	}
+	.footer {
+		padding-left: 50px;
+	}
+	.mainblock {
+		display: flex;
+		width: 100vw;
+		height: 70vh;
+	}
+	.leftside, .rightside {
+		width: calc((100% - 10vw)/2);
+		height: 80%;
+		margin: auto;
+		font-family: 'EB Garamond', san-serif;
+		font-size: 1.5rem;
+	}
+	.leftside {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-left: 15px;
+	}
+	.rightside p:first-line {
+		font-size: 2.5rem;
+	}
+	.rightside p {
+		margin-top: 20px;
+	}
+	form {
+		margin-top: 20px;
+	}
+	.leftside h1 {
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 4rem;
+		color: #ffff00;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		text-shadow: 2px 2px rgba(255,250,205, .5);
+	}
+	.leftside span {
+		margin: 0;
+	}
+	.text h2 {
+		font-size: 2.5rem;
+	}
+	.text p {
+		font-size: 2rem;
+		width: 85%;
+		margin: 20px auto;	
+	}
+	
+	input {
+		font-size: 1.2rem;
+	}
+}
