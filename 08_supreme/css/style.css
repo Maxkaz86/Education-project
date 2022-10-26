@@ -1,0 +1,47 @@
+@import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans&display=swap');
+
+.page {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/fon.png);
+	font-family: 'EB Garamond', sans-serif;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.list a {
+	text-decoration: none;
+	color: white;
+}
+.title {
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+	font-size: 3rem;
+	text-transform: uppercase;
+	background-color: red;
+	font-style: italic;
+	font-weight: bold;
+	padding: 5px 10px 5px 5px;
+	box-sizing: border-box;
+}
+.date {
+	font-family: 'EB Garamond', sans-serif;
+	font-size: 1rem;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+.header, .list, .footer {
+	margin: auto;
+}
+.footer img:nth-of-type(2n) {
+	padding: 0 30px;
+}
+.list span {
+	background-color: red;
+}
+.list li {
+	line-height: 2rem;
+}
