@@ -174,7 +174,7 @@ h2 {
 .footer_end {
 	padding: 20px 0 20px 15vw;
 }
-@media screen and (300px <= width <= 880px) {
+@media screen and (max-width: 880px) and (300px <= width <= 880px) {
 	.page {
 		width: 100%;
 		padding: 0;
