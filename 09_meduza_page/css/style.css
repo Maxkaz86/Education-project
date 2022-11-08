@@ -174,7 +174,7 @@ h2 {
 .footer_end {
 	padding: 20px 0 20px 15vw;
 }
-@media screen and (390px <= width <= 820px) {
+@media screen and (390px <= width <= 880px) {
 	.page {
 		width: 100%;
 		padding: 0;
@@ -207,6 +207,7 @@ h2 {
 		width: 90%;
 		margin: auto;
 		margin-bottom: 10px;
+		padding: 5px 10px;
 	}
 	.header_bar_two span {
 		color: #9CA1A9;
