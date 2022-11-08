@@ -200,9 +200,7 @@ h2 {
 	}
 	.header_en {
 		width: 100%;
-		position: relative;
-		left: 43%;
-		
+		text-align: center;		
 	}
 	.header_bar_two {
 		top: 0;
