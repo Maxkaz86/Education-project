@@ -1,0 +1,265 @@
+@import	url(reset.css);
+* {
+	box-sizing: border-box;
+}
+.page-wrapper, .zen-resources, .zen-resources ul {
+	display: flex;
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+a:hover {
+	text-decoration: underline;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+.intro {
+	margin-top: 20vh;
+	margin-bottom: 3vh;
+}
+.page-wrapper {
+	font-size: 15px;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+}
+.main.supporting {
+	order: 1;
+	width: 100%;
+}
+.intro {
+	width: 80%;
+	flex-wrap: wrap;
+	margin-bottom: 10vh;
+}
+.zen-resources {
+	width: 100%;
+	height: 10vh;
+	padding: 0 1rem;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	line-height: 10vh;
+}
+.zen-resources ul {
+	width: 70%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.intro header {
+	margin-bottom: 10vh;
+	display: inline-block;
+	width: calc(100% - 40%);
+}
+.intro h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	padding-left: 10%;
+	line-height: 2em;
+}
+.intro h2 {
+	font-size: 2em;
+	font-style: italic;
+	padding-left: 30%;
+	line-height: 2em;
+}
+.summary {
+	display: inline-block;
+	width: calc(100% - 60vw);
+	font-style: italic;
+	line-height: 1.2em;
+	padding: 15px;
+	border-left: 2px dashed white;
+	border-right: 2px dashed white;
+	border-radius: 20px;
+	margin-left: 5%;
+}
+.resources {
+	width: 70px;
+	height: 70px;
+	text-indent: -999em;
+	background-image: url(../img/fast-forward.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 10px 10px 10px 20px;
+}
+.zen-resources li a {
+	padding: 15px;
+	border-radius: 30px;
+	background-color: blue;
+}
+.zen-resources li a:hover {
+	background-color: rgba(240,248,255, .3);
+	transition: 0.2s;
+}
+.design-selection {
+	width: 20%;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.design-archives {
+	width: 20%;
+	position: absolute;
+	top: 52vh;
+	right: 0;
+}
+.select {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	line-height: 2em;
+	padding: 0 10px;
+	border-radius: 30px;
+	background-color: rgba(240,248,255, .3);
+	text-align: center;
+}
+.design-name {
+	display: block;
+}
+.design-selection nav {
+	width: 80%;
+	background-color: rgba(240,248,255, .3);
+	padding: 10px;
+	line-height: 1.1em;
+}
+.archives {
+	text-indent: -999em;
+}
+.design-archives ul {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+.design-archives ul li {
+	padding: 5px;
+	background-color: rgba(240,248,255, .3);
+}
+.design-archives a {
+	color: white;
+}
+.design-archives a:hover {
+	color: yellow;
+}
+.preamble {
+	padding: 10px;
+	display: flex;
+	margin: auto;
+}
+.preamble h3 {
+	width: 80%;
+	padding: 5px;
+	background-color: blue;
+	border-radius: 30px;
+	text-align: center;
+	align-self: center;
+}
+.preamble p {
+	margin-left: 10px;
+	text-align: justify;
+	padding: 5px 10px 5px 5px;
+	border-right: 2px dotted white;
+	line-height: 1.2em;
+}
+.preamble p:last-child {
+	border: 0px;
+}
+.main.supporting {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.explanation, .participation, .benefits, .requirements {
+	width: 25%;
+	height: 30vh;
+	overflow-y: scroll;
+	line-height: 1.3em;
+	padding: 10px;
+}
+.explanation::-webkit-scrollbar, .participation::-webkit-scrollbar, .benefits::-webkit-scrollbar, .requirements::-webkit-scrollbar {
+	width: 10px;	
+}
+.explanation::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg, rgba(85,162,247,1) 21%, rgba(82,95,223,0.8132295154389881) 82%);
+	border-radius: 20px;
+}
+.participation::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg, rgba(249,139,139,1) 21%, rgba(242,97,97,1) 82%);
+	border-radius: 20px;
+}
+.requirements::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg, rgba(241,161,255,1) 21%, rgba(209,65,249,1) 82%);
+	border-radius: 20px;
+}
+.benefits::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg, rgba(161,255,167,1) 21%, rgba(44,215,54,1) 82%);
+	border-radius: 20px;
+}
+footer {
+	width: 20%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+}
+.zen-validate-html {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-image: url(../img/html.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.zen-validate-css {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-image: url(../img/css.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.zen-license {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-image: url(../img/puzzle.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.zen-accessibility {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-image: url(../img/letter-a.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.zen-github {
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	background-image: url(../img/github.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.explanation {
+	background-color: blue;
+}
+.participation {
+	background-color: red;
+}
+.benefits {
+	background-color: green;
+}
+.requirements {
+	background-color: purple;
+}
+.main.supporting h3 {
+	font-weight: bold;
+	margin-bottom: 5vh;
+}
